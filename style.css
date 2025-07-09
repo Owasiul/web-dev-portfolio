@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+/* header start */
+header{
+    background-image: url(images/developer.png), url(images/header_bg.png) ;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 248, 243);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul li {
+  margin-right: 20px;
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+button.hire {
+  font-size: 20px;
+  padding: 10px 35px;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: 0;
+  color: white;
+}
+.logo {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 10px 12px;
+}
+/* hero */
+.hero {
+  margin: 20px 35px 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-txt {
+  width: 50%;
+}
+.greet {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+}
+.name {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+}
+.description {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.hero-img {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
